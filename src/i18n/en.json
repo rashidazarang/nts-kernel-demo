@@ -1,0 +1,154 @@
+{
+  "site": {
+    "title": "Acme | Digital product studio",
+    "titleTemplate": "%s | Acme",
+    "description": "Acme is a digital product studio. We help teams design, build, and ship web and mobile products that people love to use."
+  },
+  "common": {
+    "skipToContent": "Skip to content",
+    "language": "Language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "callUs": "Call us"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "team": "Team",
+    "blog": "Blog",
+    "contact": "Contact",
+    "cta": "Start a project"
+  },
+  "hero": {
+    "eyebrow": "Digital product studio",
+    "title": "We design and build products people love",
+    "subtitle": "From first sketch to production launch, a senior team partners with you to ship web and mobile products that move your business forward.",
+    "ctaPrimary": "Start a project",
+    "ctaSecondary": "See our services"
+  },
+  "trustBar": {
+    "text": "Trusted by teams building the future · San Francisco · New York · Remote"
+  },
+  "whoWeAre": {
+    "eyebrow": "Who we are",
+    "title": "A small team that ships big ideas",
+    "body": "We are a product studio that blends strategy, design, and engineering under one roof. Fewer handoffs, faster decisions, and work we are proud to put our name on.",
+    "bullets": [
+      { "title": "Senior team", "desc": "You work directly with the people doing the work, not a layer of account managers." },
+      { "title": "Fast iteration", "desc": "We ship in small slices so you see real progress every week." },
+      { "title": "Transparent process", "desc": "Clear scope, clear pricing, and a roadmap you can actually follow." },
+      { "title": "Modern stack", "desc": "We build on proven, current tools so your product is fast and easy to maintain." },
+      { "title": "Built to last", "desc": "Clean handoff and documentation so your team can run with it." }
+    ]
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Services we offer",
+    "subtitle": "Everything you need to take a product from idea to launch, and to keep it growing.",
+    "cta": "Learn more",
+    "items": {
+      "strategy": {
+        "title": "Product strategy",
+        "tagline": "Find the shortest path to a product worth building.",
+        "description": "Workshops, research, and a clear roadmap. We help you decide what to build first and why, so every sprint moves the needle."
+      },
+      "design": {
+        "title": "Design",
+        "tagline": "Interfaces that are a pleasure to use.",
+        "description": "Brand, UX, and polished UI. We design systems, not just screens, so your product stays consistent as it grows."
+      },
+      "engineering": {
+        "title": "Engineering",
+        "tagline": "Fast, reliable software, shipped.",
+        "description": "Full-stack web and mobile development on a modern stack, with the testing and tooling to keep it healthy."
+      },
+      "support": {
+        "title": "Care and growth",
+        "tagline": "We stick around after launch.",
+        "description": "Ongoing improvements, monitoring, and support, so your product keeps getting better and never goes stale."
+      }
+    }
+  },
+  "stats": {
+    "title": "By the numbers",
+    "subtitle": "Almost a decade of shipping products with teams of every size.",
+    "items": [
+      { "value": "120+", "label": "Products shipped" },
+      { "value": "15", "label": "People on the team" },
+      { "value": "8 yrs", "label": "In business" },
+      { "value": "40+", "label": "Happy clients" }
+    ]
+  },
+  "why": {
+    "eyebrow": "Why Acme",
+    "title": "Why teams choose us",
+    "subtitle": "The reasons clients come back and send their friends.",
+    "items": [
+      { "title": "One team, end to end", "desc": "Strategy, design, and engineering in one room means fewer handoffs and faster, better decisions." },
+      { "title": "Senior by default", "desc": "Every project is staffed with experienced people who have shipped real products before." },
+      { "title": "No surprises", "desc": "Clear scope and transparent pricing, with weekly demos so you always know where things stand." }
+    ]
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "Hello, we are Acme",
+    "intro": "Acme is a digital product studio founded on a simple idea: small, senior teams build better products than big, layered ones. For nearly a decade we have partnered with startups and established companies to design, build, and grow software people actually enjoy using.",
+    "features": [
+      "Strategy and research",
+      "Brand and product design",
+      "Web and mobile engineering",
+      "Design systems",
+      "Analytics and growth",
+      "Ongoing care"
+    ],
+    "whyChooseTitle": "Why work with us",
+    "whyChoose": [
+      { "title": "Senior team", "desc": "You get experienced makers, not a rotating cast of juniors." },
+      { "title": "Real partnership", "desc": "We treat your goals as our own and stay invested past launch." },
+      { "title": "Speed with care", "desc": "We move quickly without cutting the corners that matter." },
+      { "title": "Fair, clear pricing", "desc": "Transparent scope and budgets, with no hidden surprises." }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get in touch",
+    "title": "Have a project in mind?",
+    "subtitle": "Tell us what you are building and we will get back to you within a day.",
+    "callUs": "Call us",
+    "location": "Where we are",
+    "email": "Email",
+    "form": {
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "What can we help with?",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "success": "Thanks! We will get back to you within a day.",
+      "error": "Something went wrong. Please try again or email us directly."
+    }
+  },
+  "footer": {
+    "tagline": "A digital product studio helping teams design, build, and ship software people love.",
+    "servicesTitle": "Services",
+    "companyTitle": "Company",
+    "contactTitle": "Contact",
+    "rights": "All rights reserved."
+  },
+  "blog": {
+    "title": "News & articles",
+    "subtitle": "Notes on product, design, and engineering from the Acme team.",
+    "empty": "No articles published yet. Check back soon.",
+    "readMore": "Read article",
+    "backToList": "All articles",
+    "minRead": "min read",
+    "categoriesTitle": "Categories",
+    "allCategories": "All",
+    "by": "By",
+    "categories": {
+      "business": "Business",
+      "technology": "Technology",
+      "company": "Company"
+    }
+  }
+}

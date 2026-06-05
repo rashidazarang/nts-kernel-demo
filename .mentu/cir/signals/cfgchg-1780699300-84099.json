@@ -1,0 +1,7 @@
+{
+  "type": "lifecycle",
+  "kind": "cwd_changed",
+  "source": "hook:CwdChanged",
+  "detail": "cwd: /Users/rashid/Downloads/nearscale/web -> /Users/rashid/Downloads/nearscale/starter",
+  "timestamp": "2026-06-05T22:41:40Z"
+}

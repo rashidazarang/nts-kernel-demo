@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+/*
+  Starter design system, Tailwind v4 (CSS-first). One tight token set: a single
+  brand scale + a dark "ink" for dark sections and headings, plus Mulish type.
+  Swap --color-brand-* and --color-ink to rebrand the whole site.
+*/
+@theme {
+  /* Brand scale (default: blue). Change these to make it yours. */
+  --color-brand-50: #eff6ff;
+  --color-brand-100: #dbeafe;
+  --color-brand-200: #bfdbfe;
+  --color-brand-300: #93c5fd;
+  --color-brand-400: #60a5fa;
+  --color-brand-500: #3b82f6;
+  --color-brand-600: #2563eb;
+  --color-brand-700: #1d4ed8;
+  --color-brand-800: #1e40af;
+  --color-brand-900: #1e3a8a;
+  --color-brand-950: #172554;
+
+  /* Ink (dark sections, headings) */
+  --color-ink: #0f172a;
+  --color-ink-soft: #1e293b;
+
+  /* Typography */
+  --font-sans: var(--font-mulish), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  /* Soft, layered shadows */
+  --shadow-card: 0 1px 2px rgb(15 23 42 / 0.04), 0 8px 24px rgb(15 23 42 / 0.06);
+  --shadow-card-hover: 0 2px 4px rgb(15 23 42 / 0.06), 0 16px 40px rgb(15 23 42 / 0.12);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Accessible, on-brand focus ring */
+:focus-visible {
+  outline: 2px solid var(--color-brand-600);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+::selection {
+  background: var(--color-brand-600);
+  color: #fff;
+}
+
+/* Blog prose: minimal, on-brand styling for Notion-rendered content */
+.prose {
+  color: #334155;
+  line-height: 1.75;
+  font-size: 1.0625rem;
+}
+.prose h2 {
+  color: var(--color-ink);
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 2.2rem 0 0.9rem;
+  letter-spacing: -0.01em;
+}
+.prose h3 {
+  color: var(--color-ink);
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 1.8rem 0 0.6rem;
+}
+.prose p { margin: 0 0 1.15rem; }
+.prose a { color: var(--color-brand-700); text-decoration: underline; text-underline-offset: 2px; }
+.prose a:hover { color: var(--color-brand-600); }
+.prose ul, .prose ol { margin: 0 0 1.15rem 1.25rem; }
+.prose ul { list-style: disc; }
+.prose ol { list-style: decimal; }
+.prose li { margin: 0.35rem 0; }
+.prose img { border-radius: 0.75rem; margin: 1.5rem 0; }
+.prose blockquote {
+  border-left: 3px solid var(--color-brand-300);
+  padding-left: 1rem;
+  color: #475569;
+  font-style: italic;
+  margin: 1.5rem 0;
+}
+.prose code {
+  background: #f1f5f9;
+  padding: 0.15em 0.4em;
+  border-radius: 0.3rem;
+  font-size: 0.9em;
+}
+.prose pre {
+  background: var(--color-ink);
+  color: #e2e8f0;
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+.prose pre code { background: transparent; padding: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}

@@ -1,0 +1,154 @@
+{
+  "site": {
+    "title": "Acme | Estudio de producto digital",
+    "titleTemplate": "%s | Acme",
+    "description": "Acme es un estudio de producto digital. Ayudamos a los equipos a diseñar, construir y lanzar productos web y móviles que la gente ama usar."
+  },
+  "common": {
+    "skipToContent": "Saltar al contenido",
+    "language": "Idioma",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "callUs": "Llámanos"
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "team": "Equipo",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "cta": "Iniciar proyecto"
+  },
+  "hero": {
+    "eyebrow": "Estudio de producto digital",
+    "title": "Diseñamos y construimos productos que la gente ama",
+    "subtitle": "Del primer boceto al lanzamiento en producción, un equipo senior colabora contigo para lanzar productos web y móviles que hacen crecer tu negocio.",
+    "ctaPrimary": "Iniciar proyecto",
+    "ctaSecondary": "Ver servicios"
+  },
+  "trustBar": {
+    "text": "La eligen equipos que construyen el futuro · San Francisco · Nueva York · Remoto"
+  },
+  "whoWeAre": {
+    "eyebrow": "Quiénes somos",
+    "title": "Un equipo pequeño que lanza grandes ideas",
+    "body": "Somos un estudio de producto que combina estrategia, diseño e ingeniería bajo un mismo techo. Menos traspasos, decisiones más rápidas y un trabajo del que estamos orgullosos.",
+    "bullets": [
+      { "title": "Equipo senior", "desc": "Trabajas directamente con quienes hacen el trabajo, sin una capa de gestores de cuenta." },
+      { "title": "Iteración rápida", "desc": "Entregamos en partes pequeñas para que veas avances reales cada semana." },
+      { "title": "Proceso transparente", "desc": "Alcance claro, precios claros y una hoja de ruta que de verdad puedes seguir." },
+      { "title": "Stack moderno", "desc": "Construimos con herramientas probadas y actuales para que tu producto sea rápido y fácil de mantener." },
+      { "title": "Hecho para durar", "desc": "Entrega y documentación limpias para que tu equipo continúe sin fricción." }
+    ]
+  },
+  "services": {
+    "eyebrow": "Qué hacemos",
+    "title": "Servicios que ofrecemos",
+    "subtitle": "Todo lo que necesitas para llevar un producto de la idea al lanzamiento, y para seguir haciéndolo crecer.",
+    "cta": "Saber más",
+    "items": {
+      "strategy": {
+        "title": "Estrategia de producto",
+        "tagline": "Encuentra el camino más corto a un producto que valga la pena construir.",
+        "description": "Talleres, investigación y una hoja de ruta clara. Te ayudamos a decidir qué construir primero y por qué, para que cada sprint marque la diferencia."
+      },
+      "design": {
+        "title": "Diseño",
+        "tagline": "Interfaces que dan gusto usar.",
+        "description": "Marca, UX y una UI pulida. Diseñamos sistemas, no solo pantallas, para que tu producto se mantenga consistente al crecer."
+      },
+      "engineering": {
+        "title": "Ingeniería",
+        "tagline": "Software rápido y confiable, lanzado.",
+        "description": "Desarrollo web y móvil full-stack sobre un stack moderno, con las pruebas y herramientas para mantenerlo sano."
+      },
+      "support": {
+        "title": "Cuidado y crecimiento",
+        "tagline": "Seguimos contigo después del lanzamiento.",
+        "description": "Mejoras continuas, monitoreo y soporte, para que tu producto siga mejorando y nunca se quede atrás."
+      }
+    }
+  },
+  "stats": {
+    "title": "En números",
+    "subtitle": "Casi una década lanzando productos con equipos de todos los tamaños.",
+    "items": [
+      { "value": "120+", "label": "Productos lanzados" },
+      { "value": "15", "label": "Personas en el equipo" },
+      { "value": "8 años", "label": "De trayectoria" },
+      { "value": "40+", "label": "Clientes satisfechos" }
+    ]
+  },
+  "why": {
+    "eyebrow": "Por qué Acme",
+    "title": "Por qué los equipos nos eligen",
+    "subtitle": "Las razones por las que los clientes regresan y nos recomiendan.",
+    "items": [
+      { "title": "Un equipo, de principio a fin", "desc": "Estrategia, diseño e ingeniería en una sola sala significan menos traspasos y mejores decisiones más rápido." },
+      { "title": "Senior por defecto", "desc": "Cada proyecto se forma con personas experimentadas que ya han lanzado productos reales." },
+      { "title": "Sin sorpresas", "desc": "Alcance claro y precios transparentes, con demos semanales para que siempre sepas cómo va todo." }
+    ]
+  },
+  "about": {
+    "eyebrow": "Nosotros",
+    "title": "Hola, somos Acme",
+    "intro": "Acme es un estudio de producto digital fundado sobre una idea simple: los equipos pequeños y senior construyen mejores productos que los grandes y jerárquicos. Durante casi una década hemos colaborado con startups y empresas establecidas para diseñar, construir y hacer crecer software que la gente disfruta usar.",
+    "features": [
+      "Estrategia e investigación",
+      "Marca y diseño de producto",
+      "Ingeniería web y móvil",
+      "Sistemas de diseño",
+      "Analítica y crecimiento",
+      "Cuidado continuo"
+    ],
+    "whyChooseTitle": "Por qué trabajar con nosotros",
+    "whyChoose": [
+      { "title": "Equipo senior", "desc": "Trabajas con creadores experimentados, no con un elenco rotativo de juniors." },
+      { "title": "Verdadera alianza", "desc": "Tomamos tus objetivos como propios y seguimos comprometidos después del lanzamiento." },
+      { "title": "Rapidez con cuidado", "desc": "Avanzamos rápido sin recortar lo que importa." },
+      { "title": "Precios justos y claros", "desc": "Alcance y presupuestos transparentes, sin sorpresas ocultas." }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contáctanos",
+    "title": "¿Tienes un proyecto en mente?",
+    "subtitle": "Cuéntanos qué estás construyendo y te responderemos en un día.",
+    "callUs": "Llámanos",
+    "location": "Dónde estamos",
+    "email": "Correo",
+    "form": {
+      "name": "Nombre",
+      "phone": "Teléfono",
+      "email": "Correo",
+      "message": "¿En qué podemos ayudarte?",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando…",
+      "success": "¡Gracias! Te responderemos en un día.",
+      "error": "Algo salió mal. Intenta de nuevo o escríbenos directamente."
+    }
+  },
+  "footer": {
+    "tagline": "Un estudio de producto digital que ayuda a los equipos a diseñar, construir y lanzar software que la gente ama.",
+    "servicesTitle": "Servicios",
+    "companyTitle": "Empresa",
+    "contactTitle": "Contacto",
+    "rights": "Todos los derechos reservados."
+  },
+  "blog": {
+    "title": "Noticias y artículos",
+    "subtitle": "Notas sobre producto, diseño e ingeniería del equipo de Acme.",
+    "empty": "Aún no hay artículos publicados. Vuelve pronto.",
+    "readMore": "Leer artículo",
+    "backToList": "Todos los artículos",
+    "minRead": "min de lectura",
+    "categoriesTitle": "Categorías",
+    "allCategories": "Todas",
+    "by": "Por",
+    "categories": {
+      "business": "Negocios",
+      "technology": "Tecnología",
+      "company": "Empresa"
+    }
+  }
+}

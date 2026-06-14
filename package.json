@@ -1,6 +1,6 @@
 {
-  "name": "notion-to-site-starter",
-  "version": "0.1.0",
+  "name": "nts-kernel-demo",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -13,7 +13,7 @@
     "clsx": "^2.1.1",
     "lucide-react": "^1.17.0",
     "next": "16.2.7",
-    "notion-to-site": "github:rashidazarang/notion-to-site#v1.5.0",
+    "notion-to-site": "^1.5.0",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "tailwind-merge": "^3.6.0"
